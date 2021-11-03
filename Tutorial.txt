@@ -1,0 +1,23 @@
+Set up own GitHub repository:
+1.	Go to manager’s repository, fork it to your GitHub page.
+
+Set up local folder:
+1.	git clone “URL”
+2.	git remote add upstream “URL”
+
+Save your works locally:
+1.	git add .
+2.	git commit -m “Your comment” 
+
+Save your works to your repository:
+1.	git add .
+2.	git commit -m “Your comment” 
+3.	git push origin main
+
+Merge to manager’s repository
+1.	git fetch upstream
+2.	git merge upstream/main 
+if(conflict){Resolve}
+Better to use Visual Studio Code to solve conflict
+3.	git push origin main (saved in server repo)
+4.	go to upstream webpage, then click pull request
