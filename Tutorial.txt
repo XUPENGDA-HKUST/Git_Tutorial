@@ -1,4 +1,3 @@
-Background
 Set up own GitHub repository:
 1.	Go to manager’s repository, fork it to your GitHub page.
 
